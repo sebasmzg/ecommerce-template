@@ -12,7 +12,7 @@ import Link from "next/link";
 import { useRouter } from "next/navigation";
 import { useState } from "react";
 import styles from "./page.module.scss";
-import { Pages } from "@/app/core/application/models/pages.enum";
+import { Pages } from "@/app/core/application/model/pages.enum";
 
 export default function CheckoutPage() {
   const router = useRouter();

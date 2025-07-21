@@ -2,7 +2,7 @@
 import React from 'react';
 import Link from 'next/link';
 import { Button } from '@/components/atoms';
-import { Pages } from '@/app/core/application/models/pages.enum';
+import { Pages } from '@/app/core/application/model/pages.enum';
 import styles from './EmptyCart.module.scss';
 
 export const EmptyCart: React.FC = () => {

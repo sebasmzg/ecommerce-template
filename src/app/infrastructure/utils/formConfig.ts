@@ -1,4 +1,4 @@
-import { BaseField, FieldType, FormType } from "@/app/core/application/models/form.type";
+import { BaseField, FieldType, FormType } from "@/app/core/application/model/form.type";
 
 export const formConfigs: Record<FormType, BaseField[]> = {
     checkout: [

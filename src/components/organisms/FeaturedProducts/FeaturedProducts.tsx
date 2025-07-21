@@ -3,7 +3,7 @@ import React from 'react';
 import Link from 'next/link';
 import { Button } from '@/components/atoms';
 import { useProducts } from '@/app/infrastructure/hooks';
-import { Pages } from '@/app/core/application/models/pages.enum';
+import { Pages } from '@/app/core/application/model/pages.enum';
 import styles from './FeaturedProducts.module.scss';
 import { ProductCard } from '@/components/molecule';
 

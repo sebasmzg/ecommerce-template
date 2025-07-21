@@ -2,7 +2,7 @@
 
 import { formConfigs } from "@/app/infrastructure/utils/formConfig";
 import { FormProvider } from "react-hook-form";
-import { DynamicFormProps } from "@/app/core/application/models/form.type";
+import { DynamicFormProps } from "@/app/core/application/model/form.type";
 import styles from './DynamicForm.module.scss';
 import { useFormBuilder } from "@/app/infrastructure/hooks/UseFormBuilder";
 import { Button, Title } from "../../atoms";

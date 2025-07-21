@@ -1,6 +1,6 @@
 'use client'
 import React from 'react';
-import { Pages } from '@/app/core/application/models/pages.enum';
+import { Pages } from '@/app/core/application/model/pages.enum';
 import styles from './Footer.module.scss';
 import { SocialIcon } from '@/components/atoms';
 import { FooterSection } from '@/components/molecule';

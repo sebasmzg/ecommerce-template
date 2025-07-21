@@ -1,5 +1,5 @@
 import { ICartItem, IProduct } from "@/app/core/application/dto";
-import { CartStore } from "@/app/core/application/models/cartStore.model";
+import { CartStore } from "@/app/core/application/model/cartStore.model";
 import { create } from "zustand";
 import { persist } from "zustand/middleware";
 

@@ -6,7 +6,7 @@ import { IProduct } from '@/app/core/application/dto';
 import styles from './ProductDetail.module.scss';
 import { ProductRating } from '../ProductRating/ProductRating';
 import { useRouter } from 'next/navigation';
-import { Pages } from '@/app/core/application/models/pages.enum';
+import { Pages } from '@/app/core/application/model/pages.enum';
 
 interface ProductDetailProps {
   product: IProduct;

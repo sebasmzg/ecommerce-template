@@ -4,7 +4,7 @@ import { useParams } from 'next/navigation';
 import Link from 'next/link';
 import { useProductById } from '../../../infrastructure/hooks/UseProductById';
 import { useCart } from '../../../infrastructure/hooks';
-import { Pages } from '../../../core/application/models/pages.enum';
+import { Pages } from '../../../core/application/model/pages.enum';
 import { LoadingState, ErrorState, Button } from '@/components/atoms';
 import styles from './page.module.scss';
 import { Breadcrumb } from '@/components/molecule';

@@ -8,7 +8,7 @@ import styles from './page.module.scss';
 import { EmptyCart } from "@/components/molecule/emptyCart/EmptyCart";
 import { CartTable } from "@/components/organisms";
 import { CartSummary } from "@/components/molecule";
-import { Pages } from "@/app/core/application/models/pages.enum";
+import { Pages } from "@/app/core/application/model/pages.enum";
 
 export default function CartPage() {
   const router = useRouter();
