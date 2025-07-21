@@ -1,7 +1,7 @@
 'use client'
 import React from 'react';
 import { useFormContext } from 'react-hook-form';
-import styles from './FormField.module.scss';
+import styles from './formField.module.scss';
 
 interface FormFieldProps {
   name: string;
