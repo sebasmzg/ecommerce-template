@@ -1,4 +1,4 @@
-const defaultBaseUrl = process.env.NEXT_PUBLIC_BASE_URL || "";
+const defaultBaseUrl = process.env.NEXT_PUBLIC_BASE_URL || "https://fakestoreapi.com/";
 export class HttpClient {
   private baseUrl: string;
 
