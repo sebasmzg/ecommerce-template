@@ -64,7 +64,7 @@ export const Header = () => {
         <div>
           <Link href="/" className={styles.logoLink}>
             <span className={styles.logoIcon}>🛍️</span>
-            <span className={styles.logoText}>PT Exito</span>
+            <span className={styles.logoText}>Ecommerce</span>
           </Link>
         </div>
 
@@ -115,7 +115,7 @@ export const Header = () => {
                   </>
                 ) : (
                   <div className={styles.noResults}>
-                    No products found for "{searchTerm}"
+                    No products found for &quot;{searchTerm}&quot;
                   </div>
                 )}
               </div>
